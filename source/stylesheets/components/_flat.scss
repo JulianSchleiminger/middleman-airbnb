@@ -1,0 +1,21 @@
+.flat-owner {
+  flex: 1 0 auto;
+  img {
+    height: 100px;
+    padding: 10px;
+  }
+  padding: 20px;
+}
+
+.flat-details{
+  display: flex;
+  align-items: center;
+}
+
+.flat-description{
+  padding: 20px;
+  h2 {
+    font-size: 23px;
+    margin-top: 0px;
+  }
+}
