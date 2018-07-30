@@ -1,8 +1,7 @@
 <div class="navbar-wagon">
   <!-- Logo -->
-  <a href="/" class="navbar-wagon-brand">
-    <%= image_tag "logo.png", alt: "logo" %>
-  </a>
+  <% logo_path =image_path "../images/logo.png" %>
+  <%= link_to "<img src=#{logo_path} alt='logo'>", "../index.html", class: "navbar-wagon-brand" %>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
